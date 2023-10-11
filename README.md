@@ -1,12 +1,12 @@
 
 # veeq_drugselling
-[ESX] [OX]
+[ESX] [OX] Sell your drugs in a modern style. 
 
 # Support, Scripts & More
 - [Click here to join our Discord](https://discord.gg/ecKkq2P8cT)
 
 # Preview
-[streamable](https://streamable.com/ify0ds)
+[Streamable - veeq_drugselling](https://streamable.com/ify0ds)
 
 # Features
 - Selling using ox_target
