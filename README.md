@@ -3,7 +3,7 @@
 [ESX] [OX] Sell your drugs in a modern style. 
 
 # Support, Scripts & More
-- [Click here to join our Discord](https://discord.gg/ecKkq2P8cT)
+- [Click here to join our Discord](https://discord.gg/vaE4wu6zsD)
 
 # Preview
 [Streamable - veeq_drugselling](https://streamable.com/ify0ds)
