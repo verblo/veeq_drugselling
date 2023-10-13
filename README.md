@@ -34,3 +34,6 @@
 5. [ox_lib](https://github.com/overextended/ox_lib)
 
 Of course, you can edit the script, and use your notifications, or progresbars. The above requirements are only if you want to download my script, and use it right away.
+
+# Credits
+- nopain8269 Thanks for the German translation!
