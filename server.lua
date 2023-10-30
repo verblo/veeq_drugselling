@@ -16,7 +16,7 @@ RegisterNetEvent('veeq_drugselling:sellmarycha', function()
         x = math.random(1,5)
     end
 
-    local cenamarychy = math.random(Config.WeedPriceMin, Config.WeedPriceMax) * 1
+    local cenamarychy = math.random(Config.WeedPriceMin, Config.WeedPriceMax) * x
 
     xPlayer.removeInventoryItem(Config.WeedItem, x)
     xPlayer.addInventoryItem('black_money', cenamarychy)
