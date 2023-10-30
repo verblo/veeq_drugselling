@@ -2,7 +2,7 @@ ESX = exports["es_extended"]:getSharedObject()
 
 RegisterNetEvent('veeq_drugselling:sellmarycha', function()
     local xPlayer = ESX.GetPlayerFromId(source)
-    local ilemarychyweq = xPlayer.getInventoryItem("bagofdope").count
+    local ilemarychyweq = xPlayer.getInventoryItem(Config.WeedItem).count
     local x
     if ilemarychyweq == 1 then
         x = 1
@@ -16,9 +16,9 @@ RegisterNetEvent('veeq_drugselling:sellmarycha', function()
         x = math.random(1,5)
     end
 
-    local cenamarychy = math.random(Config.WeedPriceMin, Config.WeedPriceMax) * x
+    local cenamarychy = math.random(Config.WeedPriceMin, Config.WeedPriceMax) * 1
 
-    xPlayer.removeInventoryItem('bagofdope', x)
+    xPlayer.removeInventoryItem(Config.WeedItem, x)
     xPlayer.addInventoryItem('black_money', cenamarychy)
 
     TriggerClientEvent('ox_lib:notify', source, {
@@ -31,7 +31,7 @@ end)
 
 RegisterNetEvent('veeq_drugselling:sellmeta', function()
     local xPlayer = ESX.GetPlayerFromId(source)
-    local ilemetyweq = xPlayer.getInventoryItem("meth").count
+    local ilemetyweq = xPlayer.getInventoryItem(Config.MethItem).count
     local x
     if ilemetyweq == 1 then
         x = 1
@@ -47,7 +47,7 @@ RegisterNetEvent('veeq_drugselling:sellmeta', function()
 
     local cenamety = math.random(Config.MethPriceMin, Config.MethPriceMax) * x
 
-    xPlayer.removeInventoryItem('meth', x)
+    xPlayer.removeInventoryItem(Config.MethItem, x)
     xPlayer.addInventoryItem('black_money', cenamety)
 
     TriggerClientEvent('ox_lib:notify', source, {
@@ -61,7 +61,8 @@ end)
 
 RegisterNetEvent('veeq_drugselling:sellkoka', function()
     local xPlayer = ESX.GetPlayerFromId(source)
-    local ilekokiyweq = xPlayer.getInventoryItem("coke_pooch").count
+    local ilekokiyweq = xPlayer.getInventoryItem(Config.CokeItem).count
+	
     local x
     if ilekokiyweq == 1 then
         x = 1
@@ -77,7 +78,7 @@ RegisterNetEvent('veeq_drugselling:sellkoka', function()
 
     local cenakoki = math.random(Config.CokePriceMin, Config.CokePriceMax) * x
 
-    xPlayer.removeInventoryItem('coke_pooch', x)
+    xPlayer.removeInventoryItem(Config.CokeItem, x)
     xPlayer.addInventoryItem('black_money', cenakoki)
 
     TriggerClientEvent('ox_lib:notify', source, {
