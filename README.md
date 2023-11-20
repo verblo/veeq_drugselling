@@ -18,7 +18,7 @@
 - Random drug price
 - Animations
 - Overall neatness, and modernity
-- Polish translation, and English translation
+- Polish, German, French and English translation
 
 # Installation
 1. put 'veeq_drugselling' to your 'resources' folder
