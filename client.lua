@@ -17,8 +17,8 @@ local isSelling = false
 	local Animzastanowienie = "base"
 	local modezastanowienie = 49
 
-<<<<<<< HEAD
-=======
+
+
 
 
 local function isPedBlocked(ped)
@@ -47,7 +47,7 @@ local function handlePedInteraction(data, event)
 end
 
 
->>>>>>> 6aec67d (1.0.4 update)
+
 exports.ox_target:addGlobalPed({
 	label = _U("sellweed"),
 	icon = "fa-solid fa-cannabis",
@@ -111,7 +111,7 @@ if numberofcops >= Config.NumberOfCops then
 
 						local npcCoords = GetEntityCoords(npcPed)
 
-<<<<<<< HEAD
+
 						
 						local distance = Vdist(playerCoords.x, playerCoords.y, playerCoords.z, npcCoords.x, npcCoords.y, npcCoords.z)
 						if distance < 4.0 then
@@ -193,7 +193,7 @@ else
 		type = 'error'
 	}) 
 end
-=======
+
     isSelling = true
 
     local playerPed = PlayerPedId()
@@ -307,7 +307,7 @@ end
     end
 
     isSelling = false
->>>>>>> 6aec67d (1.0.4 update)
+
 end)
 
 RegisterNetEvent('veeqsprzedawanie:sellmeta')
